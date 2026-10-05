@@ -284,6 +284,11 @@ export const explorer = {
     authorTitle: 'Author',
     authorName: 'Jon Peciña',
     authorRole: 'AI Engineer',
+    authorBio1:
+      'Jon Peciña is an Industrial Engineer (University of Navarra) with a Master in Full-Stack Development (UNIR). After 22 years in finance — corporate services, accounting and controlling across Spain, the Netherlands and Peru — he converted to AI Engineering: designing and building complete web applications, from front end to testing and deployment, accelerated by AI tools.',
+    authorBio2:
+      'He built PISA Simulator & Global Explorer to make international education data genuinely accessible: an independent platform where anyone can understand what PISA measures, explore two decades of results, and experience first-hand the logic of a PISA-style assessment. Understand PISA. Explore the data. Test yourself.',
+    authorContact: 'Contact',
     authorNote: 'Questions or feedback about this project are welcome.',
   },
   admin: {

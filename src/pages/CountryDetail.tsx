@@ -180,9 +180,9 @@ export default function CountryDetail() {
                   <ChangeBadge current={s.cur ?? undefined} previous={s.prev ?? undefined} previousYear={s.year ?? undefined} />
                 </div>
                 <p className="mt-2 text-xs tabular-nums text-ink-600">
-                  {s.cur != null ? Math.round(s.cur) : t('common.common.noData')}
-                  {' → '}
                   {s.prev != null ? Math.round(s.prev) : t('common.common.noData')}
+                  {' → '}
+                  {s.cur != null ? Math.round(s.cur) : t('common.common.noData')}
                 </p>
               </div>
             ))}

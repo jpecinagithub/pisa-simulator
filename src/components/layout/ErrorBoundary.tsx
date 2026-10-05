@@ -37,7 +37,7 @@ export class ErrorBoundary extends Component<{ children: ReactNode }, State> {
           <div className="mt-6 flex justify-center gap-3">
             <button
               type="button"
-              onClick={() => this.setState({ error: null })}
+              onClick={() => window.location.reload()}
               className="rounded-lg bg-navy-900 px-5 py-2.5 text-sm font-semibold text-white"
             >
               Try again

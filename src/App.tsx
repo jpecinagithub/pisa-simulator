@@ -1,4 +1,5 @@
-import { Suspense, lazy } from 'react';
+import { Suspense } from 'react';
+import { lazyWithRetry } from './lib/lazyWithRetry';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { LanguageProvider } from './i18n';
 import { Layout } from './components/layout/Layout';
@@ -6,22 +7,22 @@ import { ErrorBoundary } from './components/layout/ErrorBoundary';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
-const Home = lazy(() => import('./pages/Home'));
-const WhatIsPisa = lazy(() => import('./pages/WhatIsPisa'));
-const History = lazy(() => import('./pages/History'));
-const GlobalResults = lazy(() => import('./pages/GlobalResults'));
-const Results2025 = lazy(() => import('./pages/Results2025'));
-const Countries = lazy(() => import('./pages/Countries'));
-const CountryDetail = lazy(() => import('./pages/CountryDetail'));
-const SimulatorSetup = lazy(() => import('./pages/SimulatorSetup'));
-const SimulatorTest = lazy(() => import('./pages/SimulatorTest'));
-const SimulatorResults = lazy(() => import('./pages/SimulatorResults'));
-const ReportHistory = lazy(() => import('./pages/ReportHistory'));
-const Leaderboard = lazy(() => import('./pages/Leaderboard'));
-const Methodology = lazy(() => import('./pages/Methodology'));
-const About = lazy(() => import('./pages/About'));
-const Admin = lazy(() => import('./pages/Admin'));
-const NotFound = lazy(() => import('./pages/NotFound'));
+const Home = lazyWithRetry(() => import('./pages/Home'));
+const WhatIsPisa = lazyWithRetry(() => import('./pages/WhatIsPisa'));
+const History = lazyWithRetry(() => import('./pages/History'));
+const GlobalResults = lazyWithRetry(() => import('./pages/GlobalResults'));
+const Results2025 = lazyWithRetry(() => import('./pages/Results2025'));
+const Countries = lazyWithRetry(() => import('./pages/Countries'));
+const CountryDetail = lazyWithRetry(() => import('./pages/CountryDetail'));
+const SimulatorSetup = lazyWithRetry(() => import('./pages/SimulatorSetup'));
+const SimulatorTest = lazyWithRetry(() => import('./pages/SimulatorTest'));
+const SimulatorResults = lazyWithRetry(() => import('./pages/SimulatorResults'));
+const ReportHistory = lazyWithRetry(() => import('./pages/ReportHistory'));
+const Leaderboard = lazyWithRetry(() => import('./pages/Leaderboard'));
+const Methodology = lazyWithRetry(() => import('./pages/Methodology'));
+const About = lazyWithRetry(() => import('./pages/About'));
+const Admin = lazyWithRetry(() => import('./pages/Admin'));
+const NotFound = lazyWithRetry(() => import('./pages/NotFound'));
 
 function PageFallback() {
   return (

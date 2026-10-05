@@ -12,15 +12,25 @@ const PUBLIC_SALT = 'pisa-simulator-v1';
 const MIN_SCORE = 200;
 const MAX_SCORE = 800;
 
-// Best-effort in-memory rate limit (per serverless instance).
-const hits = new Map<string, number[]>();
-function rateLimited(ip: string): boolean {
+// Best-effort in-memory rate limits (per serverless instance).
+// Two buckets: a generous per-IP budget so a whole classroom behind one NAT
+// never locks itself out, plus a tight per-session budget (one assessment
+// session only needs a couple of publish attempts).
+const hitsByIp = new Map<string, number[]>();
+const hitsBySession = new Map<string, number[]>();
+
+function countRecent(hits: Map<string, number[]>, key: string, windowMs: number, maxKeep: number): number {
   const now = Date.now();
-  const window = hits.get(ip) ?? [];
-  const recent = window.filter((t) => now - t < 60_000);
+  const recent = (hits.get(key) ?? []).filter((t) => now - t < windowMs);
   recent.push(now);
-  hits.set(ip, recent.slice(-20));
-  return recent.length > 10;
+  hits.set(key, recent.slice(-maxKeep));
+  return recent.length;
+}
+
+function rateLimited(ip: string, sessionId: string): boolean {
+  if (countRecent(hitsByIp, ip, 60_000, 240) > 120) return true;
+  if (countRecent(hitsBySession, sessionId, 60_000, 10) > 5) return true;
+  return false;
 }
 
 function validUUID(v: unknown): v is string {
@@ -38,9 +48,6 @@ export default async function handler(req: Request): Promise<Response> {
   try {
     const ip =
       req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'unknown';
-    if (rateLimited(ip)) {
-      return Response.json({ error: 'Too many requests' }, { status: 429, headers });
-    }
 
     const body = (await req.json()) as Record<string, unknown>;
     const { name, mode, score, sessionId, proof } = body;
@@ -56,6 +63,9 @@ export default async function handler(req: Request): Promise<Response> {
     }
     if (!validUUID(sessionId)) {
       return Response.json({ error: 'Invalid session' }, { status: 400, headers });
+    }
+    if (rateLimited(ip, sessionId)) {
+      return Response.json({ error: 'Too many requests' }, { status: 429, headers });
     }
 
     // Checksum: sha256(salt | sessionId | mode | score | name)
@@ -79,8 +89,14 @@ export default async function handler(req: Request): Promise<Response> {
         VALUES (${id}, ${name.trim()}, ${mode as string}, ${score}, ${sessionId as string})
       `;
     } catch (e) {
-      // duplicate session_id → already published
-      return Response.json({ error: 'Result already published' }, { status: 409, headers });
+      // Unique violation on session_id -> already published. Any other error
+      // (connection loss, timeouts) is a genuine failure, not a duplicate.
+      const code = (e as { code?: unknown } | null)?.code;
+      if (code === '23505') {
+        return Response.json({ error: 'Result already published' }, { status: 409, headers });
+      }
+      console.error('leaderboard insert failed', e);
+      return Response.json({ error: 'Submission failed' }, { status: 500, headers });
     }
     return Response.json({ ok: true }, { headers });
   } catch (err) {

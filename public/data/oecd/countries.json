@@ -1,0 +1,746 @@
+[
+  {
+    "code": "oecd-average",
+    "nameEn": "OECD Average",
+    "nameEs": "Promedio OCDE",
+    "oecd": true,
+    "region": "OECD",
+    "flag": ""
+  },
+  {
+    "code": "spain",
+    "nameEn": "Spain",
+    "nameEs": "España",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "ES"
+  },
+  {
+    "code": "finland",
+    "nameEn": "Finland",
+    "nameEs": "Finlandia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "FI"
+  },
+  {
+    "code": "singapore",
+    "nameEn": "Singapore",
+    "nameEs": "Singapur",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "SG"
+  },
+  {
+    "code": "united-states",
+    "nameEn": "United States",
+    "nameEs": "Estados Unidos",
+    "oecd": true,
+    "region": "North America",
+    "flag": "US"
+  },
+  {
+    "code": "united-kingdom",
+    "nameEn": "United Kingdom",
+    "nameEs": "Reino Unido",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "GB"
+  },
+  {
+    "code": "germany",
+    "nameEn": "Germany",
+    "nameEs": "Alemania",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "DE"
+  },
+  {
+    "code": "france",
+    "nameEn": "France",
+    "nameEs": "Francia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "FR"
+  },
+  {
+    "code": "japan",
+    "nameEn": "Japan",
+    "nameEs": "Japón",
+    "oecd": true,
+    "region": "Asia",
+    "flag": "JP"
+  },
+  {
+    "code": "south-korea",
+    "nameEn": "South Korea",
+    "nameEs": "Corea del Sur",
+    "oecd": true,
+    "region": "Asia",
+    "flag": "KR"
+  },
+  {
+    "code": "canada",
+    "nameEn": "Canada",
+    "nameEs": "Canadá",
+    "oecd": true,
+    "region": "North America",
+    "flag": "CA"
+  },
+  {
+    "code": "australia",
+    "nameEn": "Australia",
+    "nameEs": "Australia",
+    "oecd": true,
+    "region": "Oceania",
+    "flag": "AU"
+  },
+  {
+    "code": "netherlands",
+    "nameEn": "Netherlands",
+    "nameEs": "Países Bajos",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "NL"
+  },
+  {
+    "code": "switzerland",
+    "nameEn": "Switzerland",
+    "nameEs": "Suiza",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "CH"
+  },
+  {
+    "code": "belgium",
+    "nameEn": "Belgium",
+    "nameEs": "Bélgica",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "BE"
+  },
+  {
+    "code": "sweden",
+    "nameEn": "Sweden",
+    "nameEs": "Suecia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "SE"
+  },
+  {
+    "code": "norway",
+    "nameEn": "Norway",
+    "nameEs": "Noruega",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "NO"
+  },
+  {
+    "code": "denmark",
+    "nameEn": "Denmark",
+    "nameEs": "Dinamarca",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "DK"
+  },
+  {
+    "code": "ireland",
+    "nameEn": "Ireland",
+    "nameEs": "Irlanda",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "IE"
+  },
+  {
+    "code": "poland",
+    "nameEn": "Poland",
+    "nameEs": "Polonia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "PL"
+  },
+  {
+    "code": "portugal",
+    "nameEn": "Portugal",
+    "nameEs": "Portugal",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "PT"
+  },
+  {
+    "code": "italy",
+    "nameEn": "Italy",
+    "nameEs": "Italia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "IT"
+  },
+  {
+    "code": "greece",
+    "nameEn": "Greece",
+    "nameEs": "Grecia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "GR"
+  },
+  {
+    "code": "czech-republic",
+    "nameEn": "Czech Republic",
+    "nameEs": "República Checa",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "CZ"
+  },
+  {
+    "code": "hungary",
+    "nameEn": "Hungary",
+    "nameEs": "Hungría",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "HU"
+  },
+  {
+    "code": "new-zealand",
+    "nameEn": "New Zealand",
+    "nameEs": "Nueva Zelanda",
+    "oecd": true,
+    "region": "Oceania",
+    "flag": "NZ"
+  },
+  {
+    "code": "hong-kong",
+    "nameEn": "Hong Kong (China)",
+    "nameEs": "Hong Kong (China)",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "HK"
+  },
+  {
+    "code": "russia",
+    "nameEn": "Russian Federation",
+    "nameEs": "Rusia",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "RU"
+  },
+  {
+    "code": "brazil",
+    "nameEn": "Brazil",
+    "nameEs": "Brasil",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "BR"
+  },
+  {
+    "code": "mexico",
+    "nameEn": "Mexico",
+    "nameEs": "México",
+    "oecd": true,
+    "region": "Latin America",
+    "flag": "MX"
+  },
+  {
+    "code": "thailand",
+    "nameEn": "Thailand",
+    "nameEs": "Tailandia",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "TH"
+  },
+  {
+    "code": "indonesia",
+    "nameEn": "Indonesia",
+    "nameEs": "Indonesia",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "ID"
+  },
+  {
+    "code": "austria",
+    "nameEn": "Austria",
+    "nameEs": "Austria",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "AT"
+  },
+  {
+    "code": "iceland",
+    "nameEn": "Iceland",
+    "nameEs": "Islandia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "IS"
+  },
+  {
+    "code": "luxembourg",
+    "nameEn": "Luxembourg",
+    "nameEs": "Luxemburgo",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "LU"
+  },
+  {
+    "code": "latvia",
+    "nameEn": "Latvia",
+    "nameEs": "Letonia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "LV"
+  },
+  {
+    "code": "israel",
+    "nameEn": "Israel",
+    "nameEs": "Israel",
+    "oecd": true,
+    "region": "Middle East",
+    "flag": "IL"
+  },
+  {
+    "code": "chile",
+    "nameEn": "Chile",
+    "nameEs": "Chile",
+    "oecd": true,
+    "region": "Latin America",
+    "flag": "CL"
+  },
+  {
+    "code": "argentina",
+    "nameEn": "Argentina",
+    "nameEs": "Argentina",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "AR"
+  },
+  {
+    "code": "bulgaria",
+    "nameEn": "Bulgaria",
+    "nameEs": "Bulgaria",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "BG"
+  },
+  {
+    "code": "albania",
+    "nameEn": "Albania",
+    "nameEs": "Albania",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "AL"
+  },
+  {
+    "code": "peru",
+    "nameEn": "Peru",
+    "nameEs": "Perú",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "PE"
+  },
+  {
+    "code": "liechtenstein",
+    "nameEn": "Liechtenstein",
+    "nameEs": "Liechtenstein",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "LI"
+  },
+  {
+    "code": "north-macedonia",
+    "nameEn": "North Macedonia",
+    "nameEs": "Macedonia del Norte",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "MK"
+  },
+  {
+    "code": "turkey",
+    "nameEn": "Türkiye",
+    "nameEs": "Turquía",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "TR"
+  },
+  {
+    "code": "slovak-republic",
+    "nameEn": "Slovak Republic",
+    "nameEs": "Eslovaquia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "SK"
+  },
+  {
+    "code": "macao",
+    "nameEn": "Macao (China)",
+    "nameEs": "Macao (China)",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "MO"
+  },
+  {
+    "code": "uruguay",
+    "nameEn": "Uruguay",
+    "nameEs": "Uruguay",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "UY"
+  },
+  {
+    "code": "serbia-and-montenegro",
+    "nameEn": "Serbia and Montenegro",
+    "nameEs": "Serbia y Montenegro",
+    "oecd": false,
+    "region": "Europe",
+    "flag": ""
+  },
+  {
+    "code": "tunisia",
+    "nameEn": "Tunisia",
+    "nameEs": "Túnez",
+    "oecd": false,
+    "region": "Africa",
+    "flag": "TN"
+  },
+  {
+    "code": "colombia",
+    "nameEn": "Colombia",
+    "nameEs": "Colombia",
+    "oecd": true,
+    "region": "Latin America",
+    "flag": "CO"
+  },
+  {
+    "code": "croatia",
+    "nameEn": "Croatia",
+    "nameEs": "Croacia",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "HR"
+  },
+  {
+    "code": "estonia",
+    "nameEn": "Estonia",
+    "nameEs": "Estonia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "EE"
+  },
+  {
+    "code": "slovenia",
+    "nameEn": "Slovenia",
+    "nameEs": "Eslovenia",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "SI"
+  },
+  {
+    "code": "lithuania",
+    "nameEn": "Lithuania",
+    "nameEs": "Lituania",
+    "oecd": true,
+    "region": "Europe",
+    "flag": "LT"
+  },
+  {
+    "code": "chinese-taipei",
+    "nameEn": "Chinese Taipei",
+    "nameEs": "China Taipéi",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "TW"
+  },
+  {
+    "code": "serbia",
+    "nameEn": "Serbia",
+    "nameEs": "Serbia",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "RS"
+  },
+  {
+    "code": "romania",
+    "nameEn": "Romania",
+    "nameEs": "Rumanía",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "RO"
+  },
+  {
+    "code": "jordan",
+    "nameEn": "Jordan",
+    "nameEs": "Jordania",
+    "oecd": false,
+    "region": "Middle East",
+    "flag": "JO"
+  },
+  {
+    "code": "montenegro",
+    "nameEn": "Montenegro",
+    "nameEs": "Montenegro",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "ME"
+  },
+  {
+    "code": "azerbaijan",
+    "nameEn": "Azerbaijan",
+    "nameEs": "Azerbaiyán",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "AZ"
+  },
+  {
+    "code": "kyrgyzstan",
+    "nameEn": "Kyrgyzstan",
+    "nameEs": "Kirguistán",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "KG"
+  },
+  {
+    "code": "qatar",
+    "nameEn": "Qatar",
+    "nameEs": "Catar",
+    "oecd": false,
+    "region": "Middle East",
+    "flag": "QA"
+  },
+  {
+    "code": "shanghai",
+    "nameEn": "Shanghai (China)",
+    "nameEs": "Shanghái (China)",
+    "oecd": false,
+    "region": "Asia",
+    "flag": ""
+  },
+  {
+    "code": "vietnam",
+    "nameEn": "Vietnam",
+    "nameEs": "Vietnam",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "VN"
+  },
+  {
+    "code": "malta",
+    "nameEn": "Malta",
+    "nameEs": "Malta",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "MT"
+  },
+  {
+    "code": "cyprus",
+    "nameEn": "Cyprus",
+    "nameEs": "Chipre",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "CY"
+  },
+  {
+    "code": "moldova",
+    "nameEn": "Moldova",
+    "nameEs": "Moldavia",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "MD"
+  },
+  {
+    "code": "trinidad-and-tobago",
+    "nameEn": "Trinidad and Tobago",
+    "nameEs": "Trinidad y Tobago",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "TT"
+  },
+  {
+    "code": "costa-rica",
+    "nameEn": "Costa Rica",
+    "nameEs": "Costa Rica",
+    "oecd": true,
+    "region": "Latin America",
+    "flag": "CR"
+  },
+  {
+    "code": "georgia",
+    "nameEn": "Georgia",
+    "nameEs": "Georgia",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "GE"
+  },
+  {
+    "code": "lebanon",
+    "nameEn": "Lebanon",
+    "nameEs": "Líbano",
+    "oecd": false,
+    "region": "Middle East",
+    "flag": "LB"
+  },
+  {
+    "code": "dominican-republic",
+    "nameEn": "Dominican Republic",
+    "nameEs": "República Dominicana",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "DO"
+  },
+  {
+    "code": "kosovo",
+    "nameEn": "Kosovo",
+    "nameEs": "Kosovo",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "XK"
+  },
+  {
+    "code": "bosnia-and-herzegovina",
+    "nameEn": "Bosnia and Herzegovina",
+    "nameEs": "Bosnia y Herzegovina",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "BA"
+  },
+  {
+    "code": "ukraine",
+    "nameEn": "Ukraine",
+    "nameEs": "Ucrania",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "UA"
+  },
+  {
+    "code": "malaysia",
+    "nameEn": "Malaysia",
+    "nameEs": "Malasia",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "MY"
+  },
+  {
+    "code": "brunei",
+    "nameEn": "Brunei",
+    "nameEs": "Brunéi",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "BN"
+  },
+  {
+    "code": "kazakhstan",
+    "nameEn": "Kazakhstan",
+    "nameEs": "Kazajistán",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "KZ"
+  },
+  {
+    "code": "saudi-arabia",
+    "nameEn": "Saudi Arabia",
+    "nameEs": "Arabia Saudita",
+    "oecd": false,
+    "region": "Middle East",
+    "flag": "SA"
+  },
+  {
+    "code": "morocco",
+    "nameEn": "Morocco",
+    "nameEs": "Marruecos",
+    "oecd": false,
+    "region": "Africa",
+    "flag": "MA"
+  },
+  {
+    "code": "panama",
+    "nameEn": "Panama",
+    "nameEs": "Panamá",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "PA"
+  },
+  {
+    "code": "philippines",
+    "nameEn": "Philippines",
+    "nameEs": "Filipinas",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "PH"
+  },
+  {
+    "code": "jamaica",
+    "nameEn": "Jamaica",
+    "nameEs": "Jamaica",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "JM"
+  },
+  {
+    "code": "uzbekistan",
+    "nameEn": "Uzbekistan",
+    "nameEs": "Uzbekistán",
+    "oecd": false,
+    "region": "Asia",
+    "flag": "UZ"
+  },
+  {
+    "code": "guatemala",
+    "nameEn": "Guatemala",
+    "nameEs": "Guatemala",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "GT"
+  },
+  {
+    "code": "el-salvador",
+    "nameEn": "El Salvador",
+    "nameEs": "El Salvador",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "SV"
+  },
+  {
+    "code": "paraguay",
+    "nameEn": "Paraguay",
+    "nameEs": "Paraguay",
+    "oecd": false,
+    "region": "Latin America",
+    "flag": "PY"
+  },
+  {
+    "code": "bsjg-china",
+    "nameEn": "B-S-J-G (China)",
+    "nameEs": "B-S-J-G (China)",
+    "oecd": false,
+    "region": "Asia",
+    "flag": ""
+  },
+  {
+    "code": "bsjz-china",
+    "nameEn": "B-S-J-Z (China)",
+    "nameEs": "B-S-J-Z (China)",
+    "oecd": false,
+    "region": "Asia",
+    "flag": ""
+  },
+  {
+    "code": "belarus",
+    "nameEn": "Belarus",
+    "nameEs": "Bielorrusia",
+    "oecd": false,
+    "region": "Europe",
+    "flag": "BY"
+  },
+  {
+    "code": "algeria",
+    "nameEn": "Algeria",
+    "nameEs": "Argelia",
+    "oecd": false,
+    "region": "Africa",
+    "flag": "DZ"
+  },
+  {
+    "code": "united-arab-emirates",
+    "nameEn": "United Arab Emirates",
+    "nameEs": "Emiratos Árabes Unidos",
+    "oecd": false,
+    "region": "Middle East",
+    "flag": "AE"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "year": 2000,
+    "majorDomain": "Reading",
+    "majorDomainEs": "Lectura",
+    "participants": 43,
+    "innovationsEn": [
+      "Inaugural PISA cycle: 265,000 15-year-olds tested in 28 OECD countries plus 4 partner countries (11 more added in 2002) — the first internationally comparable baseline.",
+      "Reading was the first major domain, with five proficiency levels; all scales were anchored at an OECD mean of 500 (SD 100).",
+      "Two-hour paper-based test combining multiple-choice and constructed-response items, plus student and school questionnaires."
+    ],
+    "innovationsEs": [
+      "Primer ciclo PISA: 265.000 estudiantes de 15 años en 28 países de la OCDE más 4 asociados (11 más en 2002); estableció la primera línea base comparable a nivel internacional.",
+      "La lectura fue el primer dominio principal, con cinco niveles de competencia; todas las escalas se fijaron en media OCDE de 500 (DT 100).",
+      "Prueba en papel de dos horas con preguntas de opción múltiple y de respuesta abierta, más cuestionarios a estudiantes y centros."
+    ],
+    "trendsEn": "Finland led reading (546) and ranked top-5 in all domains; Japan, Korea and Hong Kong dominated mathematics and science; Mexico, Brazil and Peru scored lowest.",
+    "trendsEs": "Finlandia lideró la lectura (546) y quedó entre los cinco primeros en todos los dominios; Japón, Corea y Hong Kong dominaron matemáticas y ciencias; México, Brasil y Perú obtuvieron las puntuaciones más bajas."
+  },
+  {
+    "year": 2003,
+    "majorDomain": "Mathematics",
+    "majorDomainEs": "Matemáticas",
+    "participants": 41,
+    "innovationsEn": [
+      "Mathematics became a major domain for the first time: six proficiency levels across four content areas — space and shape, change and relationships, quantity, uncertainty.",
+      "New minor domain: cross-curricular problem solving, assessed alongside the three core domains.",
+      "275,000 students in 30 OECD plus 11 partner countries; the United Kingdom was excluded from analysis due to a low response rate."
+    ],
+    "innovationsEs": [
+      "Las matemáticas se convirtieron en dominio principal por primera vez: seis niveles de competencia y un marco con cuatro áreas de contenido: espacio y forma, cambio y relaciones, cantidad e incertidumbre.",
+      "Nuevo dominio menor: resolución de problemas transversal, evaluada junto a los tres dominios principales.",
+      "275.000 estudiantes en 30 países OCDE más 11 asociados; el Reino Unido quedó excluido del análisis por baja tasa de respuesta."
+    ],
+    "trendsEn": "Finland topped reading (543) and science (548) and placed second in mathematics; Hong Kong, Korea and Japan led mathematics; national means were highly correlated across domains.",
+    "trendsEs": "Finlandia encabezó lectura (543) y ciencias (548) y fue segunda en matemáticas; Hong Kong, Corea y Japón lideraron matemáticas; las medias nacionales estuvieron muy correlacionadas entre dominios."
+  },
+  {
+    "year": 2006,
+    "majorDomain": "Science",
+    "majorDomainEs": "Ciencias",
+    "participants": 57,
+    "innovationsEn": [
+      "Science became a major domain for the first time: six proficiency levels built on three competencies — identifying scientific issues, explaining phenomena scientifically, using scientific evidence.",
+      "New optional parent questionnaire, complementing the student and school questionnaires.",
+      "Largest cycle to date: 400,000 students in 57 countries; US reading scores were excluded after a printing error in the test booklets."
+    ],
+    "innovationsEs": [
+      "Las ciencias se convirtieron en dominio principal por primera vez: seis niveles de competencia organizados en tres competencias: identificar cuestiones científicas, explicar fenómenos científicamente y usar pruebas científicas.",
+      "Nuevo cuestionario opcional para padres, que complementa los cuestionarios de estudiantes y centros.",
+      "El ciclo más grande hasta la fecha: 400.000 estudiantes en 57 países; las puntuaciones de lectura de EE. UU. quedaron excluidas por un error de impresión en los cuadernillos."
+    ],
+    "trendsEn": "Finland led science (563) by a wide margin and stayed top-3 in mathematics and reading; Chinese Taipei topped mathematics (549) and Korea topped reading (556); newcomers Estonia and Slovenia debuted near the top.",
+    "trendsEs": "Finlandia lideró ciencias (563) con amplia ventaja y se mantuvo entre los tres primeros en matemáticas y lectura; China Taipéi encabezó matemáticas (549) y Corea lectura (556); los debutantes Estonia y Eslovenia llegaron cerca de la cima."
+  },
+  {
+    "year": 2009,
+    "majorDomain": "Reading",
+    "majorDomainEs": "Lectura",
+    "participants": 75,
+    "innovationsEn": [
+      "First full reading-literacy cycle (reading as major domain); the largest reading assessment in PISA history to date (~470,000 students).",
+      "First PISA digital reading assessment: an optional computer-based module on online reading (~20 economies).",
+      "Shanghai-China participated for the first time and topped all three domains in its debut.",
+      "PISA 2009+ round: 10 additional partner economies tested in 2010, bringing the total to 75."
+    ],
+    "innovationsEs": [
+      "Primera evaluación completa centrada en la lectura (dominio principal del ciclo); la mayor evaluación de lectura de PISA hasta la fecha (~470.000 estudiantes).",
+      "Primera evaluación de lectura digital: módulo opcional por ordenador sobre lectura en línea (~20 economías).",
+      "Shanghái-China participó por primera vez y lideró los tres dominios en su debut.",
+      "Ronda PISA 2009+: 10 economías asociadas adicionales evaluadas en 2010, elevando el total a 75."
+    ],
+    "trendsEn": "East Asian economies dominated: Shanghai-China, Korea, Hong Kong and Singapore led reading, with Korea the top OECD performer; OECD averages stayed broadly flat versus 2006.",
+    "trendsEs": "Las economías del este asiático dominaron: Shanghái-China, Corea, Hong Kong y Singapur lideraron la lectura, con Corea como mejor país OCDE; los promedios OCDE se mantuvieron estables respecto a 2006."
+  },
+  {
+    "year": 2012,
+    "majorDomain": "Mathematics",
+    "majorDomainEs": "Matemáticas",
+    "participants": 65,
+    "innovationsEn": [
+      "First optional computer-based assessment of mathematics, alongside the paper-based test (32 economies).",
+      "Optional financial-literacy assessment introduced for the first time (18 economies).",
+      "Optional computer-based problem-solving assessment: 44 countries/economies, ~85,000 students.",
+      "The mathematics framework was redesigned around mathematical literacy in real-life contexts."
+    ],
+    "innovationsEs": [
+      "Primera evaluación opcional de matemáticas por ordenador, junto al examen en papel (32 economías).",
+      "Se introdujo por primera vez la evaluación opcional de alfabetización financiera (18 economías).",
+      "Evaluación opcional de resolución de problemas por ordenador: 44 países/economías, ~85.000 estudiantes.",
+      "El marco de matemáticas se rediseñó en torno a la alfabetización matemática en contextos reales."
+    ],
+    "trendsEn": "Shanghai-China again topped all three subjects (613 in mathematics); East Asia occupied the top five in mathematics. Sweden suffered the steepest ten-year decline in mathematics; Qatar, Kazakhstan and Malaysia improved most.",
+    "trendsEs": "Shanghái-China lideró de nuevo los tres dominios (613 en matemáticas); Asia oriental ocupó los cinco primeros puestos en matemáticas. Suecia sufrió la mayor caída en matemáticas en diez años; Catar, Kazajistán y Malasia fueron los que más mejoraron."
+  },
+  {
+    "year": 2015,
+    "majorDomain": "Science",
+    "majorDomainEs": "Ciencias",
+    "participants": 72,
+    "innovationsEn": [
+      "First cycle in which all subjects were assessed on computer (paper-based trend items remained for some countries).",
+      "New innovative domain: collaborative problem solving, assessed via computer-simulated human-agent interaction (52 economies; Singapore topped with 561).",
+      "Financial literacy offered as an optional domain (15 countries/economies); first optional teacher questionnaire."
+    ],
+    "innovationsEs": [
+      "Primer ciclo en el que todas las materias se evaluaron por ordenador (se mantuvieron ítems en papel para algunos países).",
+      "Nuevo dominio innovador: resolución colaborativa de problemas, evaluada mediante interacción humano-agente simulada por ordenador (52 economías; Singapur encabezó con 561).",
+      "Educación financiera como dominio opcional (15 países/economías); primer cuestionario opcional para el profesorado."
+    ],
+    "trendsEn": "Singapore topped all three subjects. In most countries mean science performance was essentially unchanged since 2006; significant long-term gains occurred in Colombia, Israel, Macao, Portugal, Qatar and Romania. About 1 in 5 OECD students did not reach baseline proficiency (Level 2) in science.",
+    "trendsEs": "Singapur encabezó las tres materias. En la mayoría de los países el rendimiento en ciencias apenas cambió desde 2006; hubo avances significativos a largo plazo en Colombia, Israel, Macao, Portugal, Catar y Rumanía. Alrededor de 1 de cada 5 estudiantes de la OCDE no alcanzó el nivel base (Nivel 2) en ciencias."
+  },
+  {
+    "year": 2018,
+    "majorDomain": "Reading",
+    "majorDomainEs": "Lectura",
+    "participants": 79,
+    "innovationsEn": [
+      "New innovative domain: global competence, with an optional cognitive test (27 countries) plus questionnaires.",
+      "Reading as major domain with a revised framework, including a new reading-fluency component in the digital test.",
+      "Spain's reading score was not published (implausible student response behaviour in the reading-fluency section)."
+    ],
+    "innovationsEs": [
+      "Nuevo dominio innovador: competencia global, con una prueba cognitiva opcional (27 países) y cuestionarios.",
+      "La lectura fue el dominio principal con un marco revisado, incluyendo un nuevo componente de fluidez lectora en la prueba digital.",
+      "La puntuación de lectura de España no se publicó (comportamiento de respuesta inverosímil en la sección de fluidez)."
+    ],
+    "trendsEn": "Beijing-Shanghai-Jiangsu-Zhejiang (China) topped all three subjects. The OECD reading average fell to 487 (from 493 in 2015), with more OECD countries declining than improving; Estonia (523) was the top OECD performer in reading.",
+    "trendsEs": "Beijing-Shanghái-Jiangsu-Zhejiang (China) encabezó las tres materias. El promedio OCDE en lectura cayó a 487 (desde 493 en 2015), con más países empeorando que mejorando; Estonia (523) fue el mejor país OCDE en lectura."
+  },
+  {
+    "year": 2022,
+    "majorDomain": "Mathematics",
+    "majorDomainEs": "Matemáticas",
+    "participants": 81,
+    "innovationsEn": [
+      "First PISA cycle postponed by COVID-19: the 2021 assessment was delayed to 2022.",
+      "Creative Thinking introduced as the new innovative domain; financial literacy offered optionally.",
+      "Updated mathematics framework emphasizing mathematical reasoning; multistage adaptive testing extended to mathematics.",
+      "Results for B-S-J-Z (China) and Lebanon withheld (incomplete data collection under COVID restrictions)."
+    ],
+    "innovationsEs": [
+      "Primer ciclo PISA pospuesto por la COVID-19: la evaluación de 2021 se retrasó a 2022.",
+      "Pensamiento creativo introducido como nuevo dominio innovador; alfabetización financiera como opción.",
+      "Marco de matemáticas actualizado con énfasis en el razonamiento matemático; test adaptativo multietapa extendido a matemáticas.",
+      "Resultados de B-S-J-Z (China) y Líbano no publicados por recogida incompleta de datos durante la COVID."
+    ],
+    "trendsEn": "Unprecedented decline: the OECD average fell 17 points in mathematics (489 to 472), 11 in reading (487 to 476) and 4 in science (489 to 485) between 2018 and 2022 — the steepest drops since PISA began, in the first cycle after COVID-19 school closures.",
+    "trendsEs": "Caída sin precedentes: el promedio OCDE bajó 17 puntos en matemáticas (489 a 472), 11 en lectura (487 a 476) y 4 en ciencias (489 a 485) entre 2018 y 2022 —los mayores descensos desde el inicio de PISA— en el primer ciclo tras los cierres escolares por la COVID-19."
+  },
+  {
+    "year": 2025,
+    "majorDomain": "Science",
+    "majorDomainEs": "Ciencias",
+    "participants": 91,
+    "innovationsEn": [
+      "New innovative domain 'Learning in the Digital World' — self-regulated knowledge building and problem solving with digital tools, including computational problem solving (OECD average 500).",
+      "First-ever international Foreign Language Assessment (English): optional, taken by 22 countries/economies.",
+      "Science as major domain; cycle postponed from 2024 to 2025 due to COVID disruptions; PISA moves to a four-year cycle (next: PISA 2029, reading).",
+      "Largest edition ever: 91 countries and economies; B-S-J-Z (China) returned to the rankings, topping science and mathematics."
+    ],
+    "innovationsEs": [
+      "Nuevo dominio innovador «Aprender en el mundo digital»: aprendizaje autorregulado y resolución de problemas con herramientas digitales, incluida la resolución computacional de problemas.",
+      "Primera evaluación internacional de lengua extranjera (inglés): opcional, realizada por 22 países/economías.",
+      "Ciencias como dominio principal; ciclo pospuesto de 2024 a 2025 por la COVID; PISA pasa a un ciclo de cuatro años (próximo: PISA 2029, lectura).",
+      "La edición más grande hasta la fecha: 91 países y economías; regreso de B-S-J-Z (China) al ranking (líder en ciencias y matemáticas)."
+    ],
+    "trendsEn": "OECD averages declined further versus 2022 (mathematics -9, reading -14, science -3, broadly stable). B-S-J-Z (China) topped mathematics (612) and science (597); Singapore led reading (535). Finland remained the strongest EU performer in science (504).",
+    "trendsEs": "Los promedios OCDE siguieron bajando respecto a 2022 (matemáticas −9, lectura −14, ciencias −3, estable). B-S-J-Z (China) encabezó matemáticas (612) y ciencias (597); Singapur lideró lectura (535). Finlandia siguió siendo el mejor país de la UE en ciencias (504)."
+  }
+]

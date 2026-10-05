@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "source": "OECD PISA",
+    "cycle": 2012,
+    "publicationYear": 2013,
+    "lastUpdated": "2026-10-05",
+    "url": "https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment_(2000_to_2012)",
+    "majorDomain": "math",
+    "notes": "Results presented 3 December 2013; ~510,000 students. First optional computer-based mathematics and financial-literacy assessments."
+  },
+  "results": [
+    {
+      "countryCode": "oecd-average",
+      "mathematics": 494,
+      "reading": 496,
+      "science": 501
+    },
+    {
+      "countryCode": "shanghai",
+      "mathematics": 613,
+      "reading": 570,
+      "science": 580
+    },
+    {
+      "countryCode": "singapore",
+      "mathematics": 573,
+      "reading": 542,
+      "science": 551
+    },
+    {
+      "countryCode": "hong-kong",
+      "mathematics": 561,
+      "reading": 545,
+      "science": 555
+    },
+    {
+      "countryCode": "chinese-taipei",
+      "mathematics": 560,
+      "reading": 523,
+      "science": 523
+    },
+    {
+      "countryCode": "south-korea",
+      "mathematics": 554,
+      "reading": 536,
+      "science": 538
+    },
+    {
+      "countryCode": "macao",
+      "mathematics": 538,
+      "reading": 509,
+      "science": 521
+    },
+    {
+      "countryCode": "japan",
+      "mathematics": 536,
+      "reading": 538,
+      "science": 547
+    },
+    {
+      "countryCode": "switzerland",
+      "mathematics": 531,
+      "reading": 509,
+      "science": 515
+    },
+    {
+      "countryCode": "netherlands",
+      "mathematics": 523,
+      "reading": 511,
+      "science": 522
+    },
+    {
+      "countryCode": "estonia",
+      "mathematics": 521,
+      "reading": 516,
+      "science": 541
+    },
+    {
+      "countryCode": "finland",
+      "mathematics": 519,
+      "reading": 524,
+      "science": 545
+    },
+    {
+      "countryCode": "canada",
+      "mathematics": 518,
+      "reading": 523,
+      "science": 525
+    },
+    {
+      "countryCode": "poland",
+      "mathematics": 518,
+      "reading": 518,
+      "science": 526
+    },
+    {
+      "countryCode": "belgium",
+      "mathematics": 515,
+      "reading": 509,
+      "science": 505
+    },
+    {
+      "countryCode": "germany",
+      "mathematics": 514,
+      "reading": 508,
+      "science": 524
+    },
+    {
+      "countryCode": "austria",
+      "mathematics": 506,
+      "reading": 490,
+      "science": 506
+    },
+    {
+      "countryCode": "australia",
+      "mathematics": 504,
+      "reading": 512,
+      "science": 521
+    },
+    {
+      "countryCode": "ireland",
+      "mathematics": 501,
+      "reading": 523,
+      "science": 522
+    },
+    {
+      "countryCode": "slovenia",
+      "mathematics": 501,
+      "reading": 481,
+      "science": 514
+    },
+    {
+      "countryCode": "denmark",
+      "mathematics": 500,
+      "reading": 496,
+      "science": 498
+    },
+    {
+      "countryCode": "new-zealand",
+      "mathematics": 500,
+      "reading": 512,
+      "science": 516
+    },
+    {
+      "countryCode": "czech-republic",
+      "mathematics": 499,
+      "reading": 493,
+      "science": 508
+    },
+    {
+      "countryCode": "france",
+      "mathematics": 495,
+      "reading": 505,
+      "science": 499
+    },
+    {
+      "countryCode": "united-kingdom",
+      "mathematics": 494,
+      "reading": 499,
+      "science": 514
+    },
+    {
+      "countryCode": "iceland",
+      "mathematics": 493,
+      "reading": 483,
+      "science": 478
+    },
+    {
+      "countryCode": "latvia",
+      "mathematics": 491,
+      "reading": 489,
+      "science": 502
+    },
+    {
+      "countryCode": "luxembourg",
+      "mathematics": 490,
+      "reading": 488,
+      "science": 491
+    },
+    {
+      "countryCode": "norway",
+      "mathematics": 489,
+      "reading": 504,
+      "science": 495
+    },
+    {
+      "countryCode": "portugal",
+      "mathematics": 487,
+      "reading": 488,
+      "science": 489
+    },
+    {
+      "countryCode": "italy",
+      "mathematics": 485,
+      "reading": 490,
+      "science": 494
+    },
+    {
+      "countryCode": "spain",
+      "mathematics": 484,
+      "reading": 488,
+      "science": 496
+    },
+    {
+      "countryCode": "russia",
+      "mathematics": 482,
+      "reading": 475,
+      "science": 486
+    },
+    {
+      "countryCode": "slovak-republic",
+      "mathematics": 482,
+      "reading": 463,
+      "science": 471
+    },
+    {
+      "countryCode": "united-states",
+      "mathematics": 481,
+      "reading": 498,
+      "science": 497
+    },
+    {
+      "countryCode": "lithuania",
+      "mathematics": 479,
+      "reading": 477,
+      "science": 496
+    },
+    {
+      "countryCode": "sweden",
+      "mathematics": 478,
+      "reading": 483,
+      "science": 485
+    },
+    {
+      "countryCode": "hungary",
+      "mathematics": 477,
+      "reading": 488,
+      "science": 494
+    },
+    {
+      "countryCode": "greece",
+      "mathematics": 453,
+      "reading": 477,
+      "science": 467
+    },
+    {
+      "countryCode": "turkey",
+      "mathematics": 448,
+      "reading": 475,
+      "science": 463
+    },
+    {
+      "countryCode": "united-arab-emirates",
+      "mathematics": 434,
+      "reading": 442,
+      "science": 448
+    },
+    {
+      "countryCode": "thailand",
+      "mathematics": 427,
+      "reading": 441,
+      "science": 444
+    },
+    {
+      "countryCode": "chile",
+      "mathematics": 423,
+      "reading": 441,
+      "science": 445
+    },
+    {
+      "countryCode": "mexico",
+      "mathematics": 413,
+      "reading": 424,
+      "science": 415
+    },
+    {
+      "countryCode": "uruguay",
+      "mathematics": 409,
+      "reading": 411,
+      "science": 416
+    },
+    {
+      "countryCode": "brazil",
+      "mathematics": 391,
+      "reading": 410,
+      "science": 405
+    },
+    {
+      "countryCode": "argentina",
+      "mathematics": 388,
+      "reading": 396,
+      "science": 406
+    },
+    {
+      "countryCode": "colombia",
+      "mathematics": 376,
+      "reading": 403,
+      "science": 399
+    },
+    {
+      "countryCode": "qatar",
+      "mathematics": 376,
+      "reading": 388,
+      "science": 384
+    },
+    {
+      "countryCode": "indonesia",
+      "mathematics": 375,
+      "reading": 396,
+      "science": 382
+    },
+    {
+      "countryCode": "peru",
+      "mathematics": 368,
+      "reading": 384,
+      "science": 373
+    }
+  ]
+}

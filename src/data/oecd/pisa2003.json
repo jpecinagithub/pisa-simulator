@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "source": "OECD PISA",
+    "cycle": 2003,
+    "publicationYear": 2004,
+    "lastUpdated": "2026-10-05",
+    "url": "https://en.wikipedia.org/wiki/Programme_for_International_Student_Assessment_(2000_to_2012)",
+    "majorDomain": "math",
+    "notes": "Results released 14 December 2004; 275,000 students. United Kingdom excluded from analysis (low response rate)."
+  },
+  "results": [
+    {
+      "countryCode": "oecd-average",
+      "mathematics": 500,
+      "reading": 494,
+      "science": 500
+    },
+    {
+      "countryCode": "spain",
+      "mathematics": 485,
+      "reading": 481,
+      "science": 487
+    },
+    {
+      "countryCode": "finland",
+      "mathematics": 544,
+      "reading": 543,
+      "science": 548
+    },
+    {
+      "countryCode": "united-states",
+      "mathematics": 483,
+      "reading": 495,
+      "science": 491
+    },
+    {
+      "countryCode": "germany",
+      "mathematics": 503,
+      "reading": 491,
+      "science": 502
+    },
+    {
+      "countryCode": "france",
+      "mathematics": 511,
+      "reading": 496,
+      "science": 511
+    },
+    {
+      "countryCode": "japan",
+      "mathematics": 534,
+      "reading": 498,
+      "science": 548
+    },
+    {
+      "countryCode": "south-korea",
+      "mathematics": 542,
+      "reading": 534,
+      "science": 538
+    },
+    {
+      "countryCode": "canada",
+      "mathematics": 532,
+      "reading": 528,
+      "science": 519
+    },
+    {
+      "countryCode": "australia",
+      "mathematics": 524,
+      "reading": 525,
+      "science": 525
+    },
+    {
+      "countryCode": "netherlands",
+      "mathematics": 538,
+      "reading": 513,
+      "science": 524
+    },
+    {
+      "countryCode": "switzerland",
+      "mathematics": 527,
+      "reading": 499,
+      "science": 513
+    },
+    {
+      "countryCode": "belgium",
+      "mathematics": 529,
+      "reading": 507,
+      "science": 509
+    },
+    {
+      "countryCode": "sweden",
+      "mathematics": 509,
+      "reading": 514,
+      "science": 506
+    },
+    {
+      "countryCode": "norway",
+      "mathematics": 495,
+      "reading": 500,
+      "science": 484
+    },
+    {
+      "countryCode": "denmark",
+      "mathematics": 514,
+      "reading": 492,
+      "science": 475
+    },
+    {
+      "countryCode": "ireland",
+      "mathematics": 503,
+      "reading": 515,
+      "science": 505
+    },
+    {
+      "countryCode": "poland",
+      "mathematics": 490,
+      "reading": 497,
+      "science": 498
+    },
+    {
+      "countryCode": "portugal",
+      "mathematics": 466,
+      "reading": 478,
+      "science": 468
+    },
+    {
+      "countryCode": "italy",
+      "mathematics": 466,
+      "reading": 476,
+      "science": 486
+    },
+    {
+      "countryCode": "greece",
+      "mathematics": 445,
+      "reading": 472,
+      "science": 481
+    },
+    {
+      "countryCode": "czech-republic",
+      "mathematics": 516,
+      "reading": 489,
+      "science": 523
+    },
+    {
+      "countryCode": "hungary",
+      "mathematics": 490,
+      "reading": 482,
+      "science": 503
+    },
+    {
+      "countryCode": "new-zealand",
+      "mathematics": 523,
+      "reading": 522,
+      "science": 521
+    },
+    {
+      "countryCode": "hong-kong",
+      "mathematics": 550,
+      "reading": 510,
+      "science": 539
+    },
+    {
+      "countryCode": "russia",
+      "mathematics": 468,
+      "reading": 442,
+      "science": 489
+    },
+    {
+      "countryCode": "brazil",
+      "mathematics": 356,
+      "reading": 403,
+      "science": 390
+    },
+    {
+      "countryCode": "mexico",
+      "mathematics": 385,
+      "reading": 400,
+      "science": 405
+    },
+    {
+      "countryCode": "turkey",
+      "mathematics": 423,
+      "reading": 441,
+      "science": 434
+    },
+    {
+      "countryCode": "thailand",
+      "mathematics": 417,
+      "reading": 420,
+      "science": 429
+    },
+    {
+      "countryCode": "indonesia",
+      "mathematics": 360,
+      "reading": 382,
+      "science": 395
+    },
+    {
+      "countryCode": "austria",
+      "mathematics": 506,
+      "reading": 491,
+      "science": 491
+    },
+    {
+      "countryCode": "iceland",
+      "mathematics": 515,
+      "reading": 492,
+      "science": 495
+    },
+    {
+      "countryCode": "luxembourg",
+      "mathematics": 493,
+      "reading": 479,
+      "science": 483
+    },
+    {
+      "countryCode": "slovak-republic",
+      "mathematics": 498,
+      "reading": 469,
+      "science": 495
+    },
+    {
+      "countryCode": "latvia",
+      "mathematics": 483,
+      "reading": 491,
+      "science": 489
+    },
+    {
+      "countryCode": "macao",
+      "mathematics": 527,
+      "reading": 498,
+      "science": 525
+    },
+    {
+      "countryCode": "uruguay",
+      "mathematics": 422,
+      "reading": 434,
+      "science": 438
+    },
+    {
+      "countryCode": "serbia-and-montenegro",
+      "mathematics": 437,
+      "reading": 412,
+      "science": 436
+    },
+    {
+      "countryCode": "tunisia",
+      "mathematics": 359,
+      "reading": 375,
+      "science": 385
+    },
+    {
+      "countryCode": "liechtenstein",
+      "mathematics": 536,
+      "reading": 525,
+      "science": 525
+    }
+  ]
+}

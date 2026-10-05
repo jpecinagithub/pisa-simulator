@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "source": "OECD PISA",
+    "cycle": 2025,
+    "publicationYear": 2026,
+    "lastUpdated": "2026-10-05",
+    "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/",
+    "majorDomain": "science",
+    "notes": "PISA 2025 Results Volume I published 8 September 2026; 760,000+ students. China reported as Beijing-Shanghai-Jiangsu-Zhejiang (B-S-J-Z). Country coverage limited to verified headline systems; Volume II (Learning in the Digital World, foreign-language assessment) figures not included. Spain short-term trend comparison vs 2022 excluded by OECD (estimates not comparable)."
+  },
+  "results": [
+    {
+      "countryCode": "oecd-average",
+      "mathematics": 463,
+      "reading": 461,
+      "science": 482
+    },
+    {
+      "countryCode": "bsjz-china",
+      "mathematics": 612,
+      "reading": 527,
+      "science": 597
+    },
+    {
+      "countryCode": "singapore",
+      "mathematics": 563,
+      "reading": 535,
+      "science": 560
+    },
+    {
+      "countryCode": "macao",
+      "mathematics": 549,
+      "reading": 501,
+      "science": 541
+    },
+    {
+      "countryCode": "chinese-taipei",
+      "mathematics": 546,
+      "reading": 508,
+      "science": 540
+    },
+    {
+      "countryCode": "japan",
+      "mathematics": 525,
+      "reading": 503,
+      "science": 538
+    },
+    {
+      "countryCode": "estonia",
+      "mathematics": 508,
+      "reading": 499,
+      "science": 527
+    },
+    {
+      "countryCode": "south-korea",
+      "mathematics": 522,
+      "reading": 501,
+      "science": 526
+    },
+    {
+      "countryCode": "united-kingdom",
+      "mathematics": 488,
+      "reading": 494,
+      "science": 511
+    },
+    {
+      "countryCode": "canada",
+      "mathematics": 485,
+      "reading": 490,
+      "science": 510
+    },
+    {
+      "countryCode": "australia",
+      "mathematics": 478,
+      "reading": 491,
+      "science": 509
+    },
+    {
+      "countryCode": "new-zealand",
+      "mathematics": 480,
+      "reading": 497,
+      "science": 509
+    },
+    {
+      "countryCode": "finland",
+      "mathematics": 469,
+      "reading": 474,
+      "science": 504
+    },
+    {
+      "countryCode": "united-states",
+      "mathematics": 463,
+      "reading": 490,
+      "science": 502
+    },
+    {
+      "countryCode": "switzerland",
+      "mathematics": 499,
+      "reading": 470,
+      "science": 501
+    },
+    {
+      "countryCode": "ireland",
+      "mathematics": 480,
+      "reading": 500,
+      "science": 500
+    },
+    {
+      "countryCode": "austria",
+      "mathematics": 477,
+      "reading": 467,
+      "science": 497
+    },
+    {
+      "countryCode": "hong-kong",
+      "mathematics": 522,
+      "reading": 480,
+      "science": 496
+    },
+    {
+      "countryCode": "spain",
+      "mathematics": 457,
+      "reading": 451,
+      "science": 477
+    }
+  ]
+}

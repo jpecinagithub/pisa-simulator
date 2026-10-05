@@ -16,6 +16,7 @@ const CountryDetail = lazy(() => import('./pages/CountryDetail'));
 const SimulatorSetup = lazy(() => import('./pages/SimulatorSetup'));
 const SimulatorTest = lazy(() => import('./pages/SimulatorTest'));
 const SimulatorResults = lazy(() => import('./pages/SimulatorResults'));
+const ReportHistory = lazy(() => import('./pages/ReportHistory'));
 const Leaderboard = lazy(() => import('./pages/Leaderboard'));
 const Methodology = lazy(() => import('./pages/Methodology'));
 const About = lazy(() => import('./pages/About'));
@@ -48,6 +49,7 @@ export default function App() {
                 <Route path="/pisa-simulator" element={<SimulatorSetup />} />
                 <Route path="/pisa-simulator/test" element={<SimulatorTest />} />
                 <Route path="/pisa-simulator/results" element={<SimulatorResults />} />
+                <Route path="/pisa-simulator/history" element={<ReportHistory />} />
                 <Route path="/leaderboard" element={<Leaderboard />} />
                 <Route path="/methodology" element={<Methodology />} />
                 <Route path="/about" element={<About />} />

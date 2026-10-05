@@ -225,6 +225,12 @@ export function ResultsDashboard() {
           >
             {t('sim.results.retake')}
           </Link>
+          <Link
+            to="/pisa-simulator/history"
+            className="rounded-xl border border-line px-6 py-3 text-sm font-semibold text-ink-900"
+          >
+            {t('sim.history.title')}
+          </Link>
         </div>
         {pdfError && (
           <p role="alert" className="mt-3 text-sm font-medium text-red-700">

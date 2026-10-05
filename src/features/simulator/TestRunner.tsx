@@ -18,6 +18,7 @@ import { gradeResponse } from '../../lib/simulator/grading';
 import { STAGE_CONFIG, buildNextStage } from '../../lib/simulator/adaptive';
 import { buildResult } from '../../lib/simulator/report';
 import { clearSession, loadSession, saveSession } from '../../lib/simulator/session';
+import { appendReportHistory } from '../../lib/simulator/history';
 import { domainName } from './shared';
 
 type Answer = number | number[] | string | null;
@@ -145,6 +146,7 @@ export function TestRunner() {
         localStorage.setItem(RESULT_KEY, JSON.stringify(result));
         localStorage.setItem(SESSION_BACKUP_KEY, JSON.stringify(s));
         localStorage.removeItem(STAGE_KEY(s.sessionId));
+        appendReportHistory(result);
       } catch {
         /* storage full — results page will show the empty state */
       }

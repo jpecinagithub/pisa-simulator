@@ -6,10 +6,10 @@ import { trackEvent } from '../../lib/analytics';
 const NAV = [
   { to: '/', key: 'nav.home' },
   { to: '/what-is-pisa', key: 'nav.whatIsPisa' },
-  { to: '/history', key: 'nav.history' },
+  { to: '/pisa-history', key: 'nav.history' },
   { to: '/results', key: 'nav.globalResults' },
   { to: '/countries', key: 'nav.countryExplorer' },
-  { to: '/simulator', key: 'nav.simulator' },
+  { to: '/pisa-simulator', key: 'nav.simulator' },
   { to: '/leaderboard', key: 'nav.leaderboard' },
   { to: '/methodology', key: 'nav.methodology' },
   { to: '/about', key: 'nav.about' },

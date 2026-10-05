@@ -1,5 +1,5 @@
 import { Suspense, lazy } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { LanguageProvider } from './i18n';
 import { Layout } from './components/layout/Layout';
 import { ErrorBoundary } from './components/layout/ErrorBoundary';
@@ -52,6 +52,9 @@ export default function App() {
                 <Route path="/methodology" element={<Methodology />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/admin" element={<Admin />} />
+                {/* legacy aliases */}
+                <Route path="/history" element={<Navigate to="/pisa-history" replace />} />
+                <Route path="/simulator" element={<Navigate to="/pisa-simulator" replace />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </Suspense>
